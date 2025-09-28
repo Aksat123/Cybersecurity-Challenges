@@ -1,0 +1,8 @@
+When did the ubuntu user log in via SSH for the first time?
+
+--------------------------------------------- Solution -------------------------------------
+
+command line: cat /var/log/auth.log | grep "Accepted"
+command line: 2024-10-22
+Did the ubuntu user use SSH keys instead of a password for the above found date? (Yea/Nay)
+Ans: Yea
